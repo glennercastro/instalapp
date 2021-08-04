@@ -2,8 +2,24 @@
 	#######################################################################
 	# Escript para update,upgrade Instaçao de pacores basicos para kali  ##
 	# Castro enc                                                         ##
-	# V 1.0 Data 03/08/2021                                              ##
+	# V 1.0 Data 04/08/2021                                              ##
 	####################################################################### 
+echo "  ░░                    ░░                                                                                               
+          ▓▒▒▓▒▒▒▒          ░▒▒▒▓▓░▓      ░░░░░░░░░░░░░░░░░       ▒▒░░            ░░░░                 ░░░░░░░                    
+          ▒▒▒▒░░░▒▓        ▒▒░░░▒▒▒▒     ▓█████████████████       ▒████░         ▒███▓            ▒▓██████████                    
+                  ░█▒▒▒▒▒▒▓▒             ▒██▓█▓▓▓▓▓▓▓▓▓▓▓█▓         ▓███▒        ░███▒         ░▓█████▓▓▓▓▓▓▓▓                    
+                 ▒▒░░▒▒▒▒░░▒▓                                        ▒███▒       ░█▓█▒        ▒████▓░                             
+               ░▓░  ▒▓▒▒▒▓   ▓▒                                  ▒▓   ▒███▓      ░█▓█▒       ▒████                                
+               ▓    ▓▓  ▓▓▒   ▓                                  ▒█▓   ░████     ░█▓█▒      ░████                                 
+          ░▒▒ ▒▒  ░▓▓▓░░▒▓▓▒  ░▓ ▒▒▒     ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        ▒██▓    ████░   ░█▓█▒      ▓█▓█▒                                 
+          ▓▒▒▓▓▒  ▓░  ▒▒   ▓   ▓▓▓░▓     ▓███████████████        ░███▒    ▓███▒  ░█▓█▒      ▓█▓█▒                                 
+           ▒░ ░▓  ▓░  ▓█   ▓  ▒▒ ░▒      ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒        ▒███▒     ▒███▓  █▓█▒      ▒█▓█▒                                 
+               ▓▒ ▒▓   ░  ▒▒ ░▓                                  ░█▓█▒      ▒███▓░█▓█▒       ████                                 
+                ▓▓ ░▒░  ░▒▒ ▒▓                                   ▒███▒       ░████▓▓█▒       ▒████░                               
+                 ░▒▒▒▒▓▒▒▒▒▒░                                    ░█▓█▒         ▓██▓▓█▒        ▒████▓▒                             
+           ░░     ▒▓░░░░░░▓▒     ░░      ▒████████████████▓      ▒███▒          ▓████▓          ▒█████████████                    
+          ▓▒▒▓▒▒▒▓▒        ▒▓▒▒▒▓▓▒▓     ▓█████████████████      ▒███▒           ▒███▓            ░▓▓█████████                    
+          ▒▒▒▒░░░░           ░░░▒▒▒▒      ░              ░        ░ ░               ░                        ░         "
 #Update Linux
 echo -e " \033[01;32mRealizando Update\033[01;37m"
 sudo apt update -y
@@ -36,6 +52,7 @@ echo "3"
 echo "4"
 echo "5"
 #######################################################
+#sudo dpkg --configure -a
 echo -e " \033[01;32mIstalando Pacotes \033[01;37m"
 echo
 echo
@@ -59,12 +76,22 @@ sudo apt install alien -y
 echo
 echo
 echo
+echo "Istalando PlayonLinux"
+sudo apt install playonlinux -y
+echo
+echo
+echo
+echo "Instalando G-Edit"
+sudo apt install gedit -y
+echo
+echo
+echo
 echo "Baixando e Instalando TeamViewer "
 sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 echo
 echo "Iniciando instação"
 echo
-sudo dpkg -i teamviewer*.deb 
+sudo dpkg -i teamviewer*.deb
 echo
 echo
 echo
@@ -84,8 +111,11 @@ echo
 echo "Iniciando instação"
 echo
 sudo dpkg -i zenmap*.deb
-
-
+echo
+echo
+echo
+echo
+echo -e " \033[01;33mFim dos Pocedimento\033[01;37m"
+echo
 #fi
-
 #echo -e " \033[01;41mRealizando Update\033[01;37m"
