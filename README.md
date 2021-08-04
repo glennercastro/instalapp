@@ -22,7 +22,7 @@
 Script para atualizar e instalara os pacotes que eu gosto de usar no Linux 
 Obs. Apenas para Derivados do Debian 
 
-![kalill](https://user-images.githubusercontent.com/44949748/128214581-3c6a97ea-fd59-43c7-a996-92ff3c530a33.png)
+![kalill](https://user-images.githubusercontent.com/44949748/128220956-7abc176c-3256-4897-9da4-62aba531a5c2.png)
 ![image](https://user-images.githubusercontent.com/44949748/128208179-de606e8a-b3b9-4797-bb00-4c66f1207146.png)
 
 
