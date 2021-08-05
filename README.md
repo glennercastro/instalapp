@@ -15,6 +15,7 @@
 | TeamViewer         | Acesso remoto.
 | Angry IP Scanner   | Scanner de ip.
 | Zenmap             | Modo grafico do Nmap.
+| Ncat               | https://g.co/kgs/dMdjVS .
 |          | .
 
 
