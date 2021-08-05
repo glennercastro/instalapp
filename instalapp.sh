@@ -86,6 +86,11 @@ sudo apt install gedit -y
 echo
 echo
 echo
+echo "Instalando Ncat"
+sudo apt install ncat -y
+echo
+echo
+echo
 echo "Baixando e Instalando TeamViewer "
 sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 echo
