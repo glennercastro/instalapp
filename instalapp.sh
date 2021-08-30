@@ -108,6 +108,20 @@ echo "
 
 
 " 
+echo "Instalando python3-pip "
+sudo apt install python3-pip -y
+echo "
+
+
+
+" 
+echo "Instalando shodan "
+sudo pip install -U --user shodan
+echo "
+
+
+
+" 
 echo "Baixando e Instalando TeamViewer "
 sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 echo " 
