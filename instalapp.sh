@@ -122,6 +122,13 @@ echo "
 
 
 " 
+echo "Instalando sublist3r "
+sudo apt install sublist3r 
+echo "
+
+
+
+" 
 echo "Baixando e Instalando TeamViewer "
 sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 echo " 
