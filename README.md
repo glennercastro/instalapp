@@ -14,8 +14,12 @@
 | Gedit              | Editor de texto modo grafico.
 | TeamViewer         | Acesso remoto.
 | Angry IP Scanner   | Scanner de ip.
-| Zenmap             | Modo grafico do Nmap.
+| Zenmap             | Modo grafico do Nmap .
 | Ncat               | https://g.co/kgs/dMdjVS .
+| sublist3r          | Consunta de subdominios . 
+|          | .
+|          | .
+|          | .
 |          | .
 
 
