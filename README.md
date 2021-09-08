@@ -17,7 +17,7 @@
 | Zenmap             | Modo grafico do Nmap .
 | Ncat               | https://g.co/kgs/dMdjVS .
 | sublist3r          | Consunta de subdominios . 
-|          | .
+| lynx               | .
 |          | .
 |          | .
 |          | .
