@@ -123,7 +123,14 @@ echo "
 
 " 
 echo "Instalando sublist3r "
-sudo apt install sublist3r 
+sudo apt install sublist3r -y
+echo "
+
+
+
+" 
+echo "Instalando lynx "
+sudo apt install lynx -y 
 echo "
 
 
