@@ -175,7 +175,22 @@ echo "
 
 
 
-" 
+"
+echo "Metasploit"
+sudo apt update; apt install metasploit-framework -y
+sudo systemctl start postgresql
+sudo msfdb init
+
+echo -e " \033[01;33mVerifique a porta 5432 e Active: active (exited) e aparecer esta tudo ok\033[01;37m"
+echo "
+
+"
+msfdb status | grep 'active'
+netstat -nlpt | grep 'postgres'
+echo -e " \033[01;33mAgora e so chamar usando o comando msfconsole\033[01;37m"
+
+sudo apt autoremove
+
 echo -e " \033[01;33mFim dos Pocedimento\033[01;37m"
 ####
 #fim
