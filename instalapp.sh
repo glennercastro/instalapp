@@ -187,7 +187,9 @@ echo "
 "
 msfdb status | grep 'active'
 netstat -nlpt | grep 'postgres'
-echo -e " \033[01;33mAgora e so chamar usando o comando msfconsole\033[01;37m"
+echo -e " \033[01;33mAgora e so chamar usando o comando msfconsole\033[01;37m
+sudo apt install armitage
+teamserver -h"
 
 sudo apt autoremove
 
