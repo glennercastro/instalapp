@@ -87,8 +87,8 @@ echo "
 
 
 " 
-echo "Istalando PlayonLinux"
-sudo apt install playonlinux -y
+#echo "Istalando PlayonLinux"
+#sudo apt install playonlinux -y
 echo " 
 
 
@@ -136,8 +136,8 @@ echo "
 
 
 " 
-echo "Baixando e Instalando TeamViewer "
-sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+#echo "Baixando e Instalando TeamViewer "
+#sudo wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 echo " 
 
 " 
@@ -177,7 +177,7 @@ echo "
 
 "
 echo "Metasploit"
-sudo apt update; apt install metasploit-framework -y
+sudo apt install metasploit-framework -y
 sudo systemctl start postgresql
 sudo msfdb init
 
