@@ -150,7 +150,7 @@ echo "
 
 " 
 echo "Baixando e Instalando Angry IP Scanner"
-sudo wget https://github.com/angryip/ipscan/releases/download/3.7.6/ipscan_3.7.6_amd64.deb
+sudo wget https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan_3.9.1_amd64.deb
 echo " 
 
 " 
